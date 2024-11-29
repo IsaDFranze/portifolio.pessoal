@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" type="imagex/png" href="logo 2.0.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(181, 243, 255, 0.582);
+            margin: 0;
+            padding: 0;
+            color: #000000;
+        }
+        header {
+            background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 53%, rgba(2,0,36,1) 84%);
+            color: white;
+            padding: 2px;
+            text-align: center;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .curriculo {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgb(6, 141, 204);
+            width: 45%;
+            margin-bottom: 20px;
+        }
+        .projetos {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgb(6, 141, 204);
+            width: 90%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .foto {
+            text-align: center;
+        }
+        .foto img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        h2 {
+            color: #170966;
+        }
+        h3 {
+            color: #0f0f0f;
+        }
+        h4 {
+            color: #150361;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(2,0,36,1);
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #170966;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .curriculo {
+                width: 90%;
+            }
+            .projetos {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portifólio Pessoal</h1>
+    </header>
+
+    <div class="container">
+        <!-- Currículo 1 -->
+        <div class="curriculo">
+            <div class="foto">
+                <img src="foto thais.jpeg" alt="Foto da Thaís Silva">
+            </div>
+            <h2>Thaís Silva</h2>
+            <h3>Estudante Desenvolvimento de sistemas</h3>
+            <p>Estudante da Instituição Proz Educação e aprendiz de t.i da empresa Solum Demolições e Terraplanagem.</p>
+            <h4>Hard Skills</h4>
+            <ul>
+                <li>HTML, CSS, JavaScript, Banco de Dados e outros</li>
+                
+            </ul>
+            <h4>Soft Skills</h4>
+            <ul>
+                <li>Comunicação</li>
+                <li>Resolução de problemas</li>
+                <li>Trabalho em equipe</li>
+            </ul>
+        </div>
+
+        <!-- Currículo 2 -->
+        <div class="curriculo">
+            <div class="foto">
+                <img src="isa.webp" alt="Foto da Isadora Franze">
+            </div>
+            <h2>Isadora Franze</h2>
+            <h3>Estudante de Desenvolvimento de Siatemas</h3>
+            <p>Estudante do terceiro ano do ensino médio e aluna da Proz Educação.Transforma ideias em projetos visuais únicos e consistentes, com atenção aos detalhes.</p>
+            <h4>Hard Skills</h4>
+            <ul>
+                <li>HTML, CSS, JavaScript, InDesign e outros</li>
+
+            </ul>
+            <h4>Soft Skills</h4>
+            <ul>
+                <li>Criatividade</li>
+                <li>Gestão de projetos</li>
+                <li>Trabalho em equipe</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Projetos -->
+    <div class="projetos">
+        <h2>Projetos Conjuntos</h2>
+        <p>Thaís Silva e Isadora Franze colaboraram nos seguintes projetos:</p>
+        <ul>
+            <li><a href="https://github.com/IsaDFranze/portal.tdti.git" target="_blank"><strong>Portal T.D.T.I</strong></a> - Um site de informações sobre a área da saúde e da tecnologia</li>
+            <li><a href="https://github.com/IsaDFranze/onepage.quiz.git" target="_blank"><strong>Onepage</strong></a> - Ainda no site de informações, esse traz uma página específica sobre software, incluindo quizes personalizados para garantia do aprendizado</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
